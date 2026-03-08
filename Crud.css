@@ -75,4 +75,15 @@ table th{
 }
 th,td{
     padding: 5px;
+
 }
+@media (max-width:600px){
+    table{
+        margin-left: -45px;
+    }
+    table th{
+        text-transform: lowercase;
+        font-size: 14px;
+    }
+}
+
